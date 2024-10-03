@@ -13,7 +13,8 @@
 
 @media only screen and (min-width:1200px){
     .counter{
-        font-size: 8rem;             
+        font-size: 8rem; 
+        width: 13rem;            
     }
 
     h1{
@@ -31,15 +32,13 @@
         width: 18rem;
         height: 4rem;
     }
-    .players{
-        width: 13rem; 
 
-    }
 }
 
 @media only screen and (min-width:992px) and (max-width: 1199px){
     .counter{
-        font-size: 7rem;              
+        font-size: 7rem;
+        width: 11rem;              
     }
 
     h1{
@@ -56,15 +55,13 @@
         width: 16rem;
         height: 3.5rem;
     }
-    .players{
-        width: 12rem; 
 
-    }
 
 }
 @media only screen and (min-width:768px) and (max-width: 991px){
     .counter{
         font-size: 6rem;
+        width: 10rem;
                       
     }
 
@@ -84,14 +81,12 @@
         width: 15rem;
         height: 3.2rem;
     }
-    .players{
-        width: 9rem; 
 
-    }
 }
 @media only screen and (min-width:576px) and (max-width: 767px){
     .counter{
-        font-size: 6rem;                      
+        font-size: 6rem;  
+        width: 10rem;                    
     }
 
     h1{
@@ -109,15 +104,12 @@
         width: 14rem;
         height: 3rem;
     }
-    .players{
-        width: 9rem; 
 
-    }
 }
 @media only screen and (max-width: 577px){
     .counter{
         font-size: 5rem;
-        /* width: 7rem;  */
+        width: 7rem;
                       
     }
 
@@ -136,10 +128,7 @@
         width: 13rem;
         height: 3rem;
     }
-    .players{
-        width: 10rem; 
 
-    }
 }
 
 body{
@@ -181,9 +170,10 @@ h1{
 }
 
 .counter{
+    align-items: center;
     color: #ef8354;
-    /* margin: 0px auto; */
-    /* padding: 0px; */
+    margin: 0px auto;
+
    
 }
 
@@ -217,6 +207,6 @@ h1{
     }
 }
 .players{
-    margin: 0vw 3vh;
+    margin: 0px 30px;
 }
    

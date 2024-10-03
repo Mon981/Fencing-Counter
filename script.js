@@ -89,7 +89,7 @@ function changeName1(){
         alert("The player's name must be less than 10 characters")
         player1Name.textContent = "PLAYER 1"
     }else{
-        player1Name.textContent = newName1
+        player1Name.textContent = newName1.toUpperCase()
     }
 } 
 let player2Name = document.getElementById("player2-name")
@@ -100,6 +100,6 @@ function changeName2(){
         alert("The player's name must be less than 10 characters")
         player2Name.textContent = "PLAYER 2"
     }else{
-        player2Name.textContent = newName2
+        player2Name.textContent = newName2.toUpperCase()
     }
 } 
