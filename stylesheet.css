@@ -117,6 +117,7 @@
 @media only screen and (max-width: 577px){
     .counter{
         font-size: 5rem;
+        width: 7rem; 
                       
     }
 
