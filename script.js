@@ -78,3 +78,26 @@ function updateTimer() {
         running = false
     }
 }
+
+let player1Name = document.getElementById("player1-name")
+player1Name.addEventListener("click", changeName1)
+function changeName1(){
+    let newName1 = prompt("Please, enter your name: ")
+    if (newName1.length > 10){
+        alert("The player's name must be less than 10 characters")
+        player1Name.textContent = "PLAYER 1"
+    }else{
+        player1Name.textContent = newName1
+    }
+} 
+let player2Name = document.getElementById("player2-name")
+player2Name.addEventListener("click", changeName2)
+function changeName2(){
+    let newName2 = prompt("Please, enter your name: ")
+    if (newName2.length > 10){
+        alert("The player's name must be less than 10 characters")
+        player2Name.textContent = "PLAYER 2"
+    }else{
+        player2Name.textContent = newName2
+    }
+} 
