@@ -117,7 +117,7 @@
 @media only screen and (max-width: 577px){
     .counter{
         font-size: 5rem;
-        width: 7rem; 
+        /* width: 7rem;  */
                       
     }
 
@@ -137,7 +137,7 @@
         height: 3rem;
     }
     .players{
-        width: 8rem; 
+        width: 10rem; 
 
     }
 }
