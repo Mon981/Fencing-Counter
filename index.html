@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fencing Counter</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <div class="btns">
+        <div class="players" id="player-A">
+            <h1>PLAYER 1</h1>
+            <button class="btn btns-fx" onclick="addA()">+</button>
+            <p class="counter anton-regular" id="counterA"></p>
+            <button class="btn dwn-btn btns-fx" onclick="sustractA()">–</button>
+        </div>
+        <div class="players" id="player-B">
+            <h1>PLAYER 2</h1>
+            <button class="btn btns-fx" onclick="addB()">+</button>
+            <p class="counter anton-regular" id="counterB"></p>
+            <button class="btn dwn-btn btns-fx" onclick="sustractB()">–</button>
+        </div>
+    </div>
+    <div class="buttons-low">
+        <button class="timer-btn btns-fx" id="timer" onclick="updateTimer()">START</button>    
+        <button class="timer-btn btns-fx" id="reset-btn" onclick="reset()">RESET</button>
+    </div>
+    </div>
+    
+</body>
+</html>

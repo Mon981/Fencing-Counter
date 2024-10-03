@@ -1,0 +1,206 @@
+@media screen and (orientation: landscape) {
+    html {
+      /* Rotate the content container */
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      /* Set content width to viewport height */
+      width: 100vh;
+      /* Set content height to viewport width */
+      height: 100vw;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
+
+@media only screen and (min-width:1200px){
+    .counter{
+        font-size: 8rem;
+        width: 8rem;               
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    .btn{
+        font-size: 6rem;
+    }
+
+    .timer-btn{
+        font-size: 2rem;
+    }
+    #timer, #reset-btn{
+        width: 18rem;
+        height: 4rem;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1199px){
+    .counter{
+        font-size: 7rem;
+        width: 7rem;               
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    .btn{
+        font-size: 5rem;
+    }
+    .timer-btn{
+        font-size: 1.6rem;
+    }
+    #timer, #reset-btn{
+        width: 16rem;
+        height: 3.5rem;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .counter{
+        font-size: 6rem;
+        width: 6rem;               
+    }
+
+    h1{
+        font-size: 2rem;
+        
+    }
+
+    .btn{
+        font-size: 5rem;
+    }
+
+    .timer-btn{
+        font-size: 1.4rem;
+    }
+    #timer, #reset-btn{
+        width: 15rem;
+        height: 3.2rem;
+    }
+}
+@media only screen and (min-width:576px) and (max-width: 767px){
+    .counter{
+        font-size: 6rem;
+        width: 6rem;               
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .btn{
+        font-size: 5rem;
+    }
+
+    .timer-btn{
+        font-size: 1.4rem;
+    }
+    #timer, #reset-btn{
+        width: 14rem;
+        height: 3rem;
+    }
+}
+@media only screen and (max-width: 577px){
+    .counter{
+        font-size: 5rem;
+        width: 5rem;               
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    .btn{
+        font-size: 4.5rem;
+    }
+
+    .timer-btn{
+        font-size: 1.3rem;
+    }
+    #timer, #reset-btn{
+        width: 13rem;
+        height: 3rem;
+    }
+}
+
+body{
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #bfc0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+h1{
+    color: #2d3142;
+    
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+  
+
+.btns{
+    resize:none;    
+    display: flex;        
+    
+}
+
+
+
+.buttons-low{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem;
+    
+}
+
+.counter{
+    color: #ef8354;
+    margin: 0px auto;
+    padding: 0px;
+   
+}
+
+#timer, #reset-btn{
+    font-family: monospace;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    background-color: #4f5d75;
+    border: none;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+#reset-btn{
+    background-color:#2d3142 ;
+    margin-bottom: 0px;
+        
+}
+
+.btn{
+    border: none;
+    background-color: #bfc0c0;
+    color:#4f5d75 ;
+    
+}
+.btns-fx{
+    &:active{
+    
+        box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+        transform: scale(.95);
+    }
+}
+.players{
+    margin: 0vw 3vh;
+}
+   
