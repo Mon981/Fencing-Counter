@@ -53,6 +53,8 @@ function reset(){
     time = (3*60*1000)-1000
     timerEL.textContent = "START"
     running = false
+    player1Name.textContent = "PLAYER 1"
+    player2Name.textContent = "PLAYER 2"
 }
 
 function startTimer() {    
