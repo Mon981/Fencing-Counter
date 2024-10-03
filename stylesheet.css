@@ -137,9 +137,10 @@ body{
     background-color: #bfc0c0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: center;
     min-height: 100vh;
+    margin-top: 5vw;
 
 }
 h1{
